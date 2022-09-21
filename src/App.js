@@ -1,11 +1,15 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './App.css';
+import Homepage from "./components/Homepage";
 
 function App() {
+  const [pokemonData, setPokemonData] = useState({});
+
   return (
-    <div>
-      Switch naar workbranch
-    </div>
+      <Homepage
+          pokemonData={pokemonData}
+          setPokemonData={setPokemonData}
+      />
   );
 }
 
