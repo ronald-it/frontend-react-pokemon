@@ -4,12 +4,48 @@
     box-sizing: border-box;
 }
 
-.pokemon-page {
+.outer-container {
     background-color: #F1BD00;
+    /*border: 1px solid black;*/
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.pokemon-logo {
+    /*border: 1px solid black;*/
+    width: 300px;
+    height: 150px;
+}
+
+.buttons-div {
+    /*border: 1px solid black;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons-div button {
+    font-weight: bold;
+    width: 80px;
+    margin: 5px;
+    padding: 3px;
+    background-color: #12519A;
+    color: white;
+    border: 2px solid black;
+}
+
+.poke-deck {
+    background-color: #F1BD00;
+    /*border: 1px solid black;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    flex-wrap: wrap;
 }
 
 .pokemon-card {
@@ -18,6 +54,7 @@
     background-color: white;
     border: solid 1px black;
     width: 150px;
+    height: 330px;
     display: flex;
     flex-direction: column;
     justify-content: center;
